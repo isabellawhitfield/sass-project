@@ -1,0 +1,33 @@
+
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'images';
+@import 'nav';
+@import 'icon';
+@import 'para';
+@import 'buttons';
+
+
+body {
+  background: $backColor;
+  color: $fontColor;
+
+}
+h1{
+  padding: $padding;
+  margin: 2*$margin;
+  width: 100%;
+  font-size: 70px;
+
+
+}
+.heading1{
+  padding: $padding;
+  margin: $margin;
+  font-size: 40px;
+
+}
+.heading2{
+  @extend .heading1;
+}

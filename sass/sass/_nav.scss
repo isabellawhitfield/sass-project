@@ -1,0 +1,26 @@
+nav {
+  padding: 3*$padding;
+  border: 2px solid $fontColor;
+  width: $width;
+  display: none;
+  z-index: 3;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #e0798c;
+  ul {
+    li{
+      padding: $padding;
+       a{
+         color: $fontColor;
+         font-size: 30px;
+         font-style: bold;
+       }
+
+    }
+  }
+}
+
+.active{
+  display: block;
+}
